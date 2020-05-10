@@ -1,3 +1,28 @@
+@font-face {
+    font-family: "tic80font";
+    src: url(tic-80.ttf);
+}
+
+* {
+    font-family: "tic80font";
+    color: #dfeed3;
+    background: #432435;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+.game {
+    display: block;
+    border: 5px solid #4e4a4e;
+    margin: 5px;
+}
+
 img {
-    max-width: 25%;
+    max-width: 100%;
 }
