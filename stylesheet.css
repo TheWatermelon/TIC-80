@@ -1,28 +1,40 @@
 @font-face {
-    font-family: "tic80font";
-    src: url(tic-80.ttf);
+	font-family: "tic80font";
+	src: url(tic-80.ttf);
 }
 
 * {
-    font-family: "tic80font";
-    color: #dfeed3;
-    background: #432435;
+	font-family: "tic80font";
+	color: #dfeed3;
+	background: #432435;
 }
 
 h1 {
-    text-align: center;
+	text-align: center;
 }
 
 .container {
-    display: flex;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .game {
-    display: block;
-    border: 5px solid #4e4a4e;
-    margin: 5px;
+	width: 80%;
+	display: block;
+	border: 5px solid #4e4a4e;
+	margin: 5px;
 }
 
 img {
-    max-width: 100%;
+	max-width: 100%;
+	display: block;
+	padding-top: 1em;
+	margin: auto;
+}
+
+p {
+	margin-bottom: 0;
+	padding-bottom: 1em;
+	text-align: center;
 }
